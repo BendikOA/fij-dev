@@ -11,7 +11,7 @@ const Holding = () => {
               Syns du jord er viktig? Ikke umiddelbart? Mat, da? Og helse? Det meste av maten vår kommer fra planter som vokser i jord. Men om maten vår begynner med jord er det et paradoks at vi vet så lite om jord. Her har du muligheten til å fylle noen kunskapshull, både om jord i potter, i hager, og på åker og eng, men også om hvordan dagens matproduksjon og poltikk påvirker hvordan vi behandler jorda.
             </p>
             <p className='text-[17px] mt-8'>
-              Bli med på en lærerik reise ned i en verden befolket av spretthaler og pansermidd, og der meitemarkens grøde ikke bare sikrer oss mat på bordet, men også en rekke løsninger for resirkulering, klima og miljø. 2
+              Bli med på en lærerik reise ned i en verden befolket av spretthaler og pansermidd, og der meitemarkens grøde ikke bare sikrer oss mat på bordet, men også en rekke løsninger for resirkulering, klima og miljø. CSS TEST
             </p>
           </div>
         </div>
