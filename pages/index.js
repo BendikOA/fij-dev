@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Holding from '@/Components/Holding'
+import Navbar from '@/Components/Navbar'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         
       </Head>
       <main className='overscroll-none'>
+        <Navbar />
         <Holding /> 
       </main>
     </>

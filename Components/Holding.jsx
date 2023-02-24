@@ -2,7 +2,7 @@ import React from 'react';
 
 const Holding = () => {
   return (
-    <section className='bg-brun h-screen '>
+    <section className='bg-brun h-screen'>
       <div className="flex flex-col justify-center h-full mx-[20px]  jmd:mx-[60px] jlg:mx-[150px]">
         <div className='items-center jmd:max-w-[40%] lg:max-w-[35%] jlg:max-w-[35%] mx-auto'>
           <h1 className=' text-hvit text-[40px] font-youngs '>Finger'n i jorda</h1>
