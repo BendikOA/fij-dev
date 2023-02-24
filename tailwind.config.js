@@ -20,14 +20,14 @@ module.exports = {
     },
     colors: {
       'brun': '#1D1006',
+      'brunl': '#6D5746',
       'gul': '#F5B845',
       'hvit': '#E2D2BF',
     },
     extend: {
       fontFamily: {
-        youngs: 'YoungSerif, Normal',
-        sans: ['Work Sans', 'sans-serif'],
-
+        'youngs': 'YoungSerif, Normal',
+        'sans': ['Work Sans', 'sans-serif'],
       }
     },
   },
