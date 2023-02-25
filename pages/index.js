@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Holding from '@/Components/Holding'
 import Navbar from '@/Components/Navbar'
-import Jordnaert from '@/Components/jordnaert';
+import Jordnaert from '@/Components/Jordnaert';
 
 export default function Home() {
   return (
