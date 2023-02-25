@@ -12,7 +12,7 @@ const Jordnaert = () => {
 
             </p>
             <p className='text-[16px] jlg:text-[17px] mt-[13px]'>
-            Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen. fsfsfgrg
+            Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen. fsfsfgrgdsadfff
             </p>
           </div>
         </div>
