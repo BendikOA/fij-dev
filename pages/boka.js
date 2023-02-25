@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import Holding from '@/Components/Holding'
-import Navbar from '@/Components/Navbar'
-import Jordnaert from '@/Components/jordnaert';
+import Head from 'next/head';
+import Link from 'next/link';
+import Navbar from '@/Components/Navbar';
+import Holding from '@/Components/Holding';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -15,9 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='overscroll-none'>
-      <Navbar />
-      <Jordnaert />
+        <Navbar />
+        <Holding /> 
       </main>
     </>
-  )
-}
+  );
+};
+
+export default Home;
