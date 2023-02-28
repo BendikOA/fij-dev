@@ -37,3 +37,9 @@ a {
 }
 
 
+@media (max-width: 375px) {
+  .hider1\\:hidden {
+    display: none !important;
+  }
+}
+

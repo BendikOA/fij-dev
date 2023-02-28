@@ -12,7 +12,7 @@ export default function Home() {
         <title>Fingern i jorda</title>
         <meta name="description" content="Fingern i jorda" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className='overscroll-none'>
       <Navbar />
