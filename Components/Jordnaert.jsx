@@ -5,7 +5,7 @@ const Jordnaert = () => {
     <section className='bg-brun min-h-screen w-full '>
       <div className="top-[217px] md:justify-center mx-[20px]  jmd:mx-[60px] jlg:mx-[150px]">
 
-        <div className=' block pt-24 jmd:pt-0 jmd:absolute jmd:top-[317px] jmd:left-[355px] text-hvit'> <h1 className='text-[40px] font-youngs'>Jordnært Press</h1>
+        <div className=' block pt-24 jmd:pt-0 jmd:absolute jmd:top-[317px] jmd:left-[355px] xl:left-[455px] text-hvit'> <h1 className='text-[40px] font-youngs'>Jordnært Press</h1>
           <div className='max-w-[460px] leading-5'>
             <p className='text-[16px] jlg:text-[17px] mt-[25px] jmd:mt-[30px]'>
               Vi er nybegynnere som forlag, men deler gjerne våre erfaringer og kan bistå med utgivelser som faller innenfor vår profil.
@@ -23,7 +23,7 @@ const Jordnaert = () => {
           </div>
         </div>
 
-        <div className='jmd:absolute jmd:top-[317px] jmd:left-[971px] text-hvit'>
+        <div className='jmd:absolute jmd:top-[317px] jmd:left-[971px] xl:left-[1171px] text-hvit'>
           
           <div className='leading-5'>
             <p className='text-[17px] jlg:text-[17px] mt-[30px]'>
