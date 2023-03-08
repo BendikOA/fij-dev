@@ -8,7 +8,7 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 const Navbar = () => {
     const [nav, setNav] = useState (false);
-    const isLgScreen = useMediaQuery('(min-width: 834px)');
+    const isLgScreen = useMediaQuery('(min-width: 375px)');
 
 
     const handleNav = () => {
@@ -18,11 +18,11 @@ const Navbar = () => {
 
 
   return (
-    <section className='max-h-[206px] relative bg-[#1D1006] jlg:bg-transparent'>
+    <section className='max-h-[206px] relativebg-[#1D1006] jlg:bg-transparent '>
         <div>
         <div>
            <Link href='/'> 
-           <img className='fixed top-[24px] left-[20px] jmd:top-[65px] jmd:left-[60px] jlg:top-[66px] jlg:left-[150px] w-[29.2px] jmd:w-[111px]' 
+           <img className='fixed top-[24px] left-[20px] jmd:top-[65px] jmd:left-[60px] jlg:top-[66px] jlg:left-[150px] w-[29.2px] jlg:w-36' 
             src={isLgScreen ? '/logoforslag03.svg' : '/logo-icon.svg'}
            alt="Jordnaert Press" />
             </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-        <div className={nav ? 'jmd:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'jsm:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
+        <div className={nav ? 'jmd:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'jmd:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
         <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
             <li className=''>
                 <Link href="">
