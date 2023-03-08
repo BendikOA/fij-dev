@@ -19,7 +19,7 @@ module.exports = {
       jlg: '1512px',
     },
     colors: {
-      'brun': '#1D1006',
+      'brun': '#321C0A',
       'brunl': '#6D5746',
       'gul': '#F5B845',
       'hvit': '#E2D2BF',
