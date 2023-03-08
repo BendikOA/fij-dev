@@ -5,7 +5,7 @@ const Jordnaert = () => {
     <section className='bg-brun min-h-screen w-full '>
       <div className="top-[217px] md:justify-center mx-[20px]  jmd:mx-[60px] jlg:mx-[150px]">
 
-        <div className=' block pt-24 jmd:pt-0 jmd:absolute jmd:top-[317px] jmd:left-[355px] xl:left-[455px] text-hvit'> <h1 className='text-[40px] font-youngs'>Jordnært Press</h1>
+        <div className=' block pt-24 jmd:pt-0 jmd:absolute jmd:top-[19.8rem] jmd:left-[22.18rem] xl:left-[455px] text-hvit'> <h1 className='text-[40px] font-youngs'>Jordnært Press</h1>
           <div className='max-w-[460px] leading-5'>
             <p className='text-[16px] jlg:text-[17px] mt-[25px] jmd:mt-[30px]'>
               Vi er nybegynnere som forlag, men deler gjerne våre erfaringer og kan bistå med utgivelser som faller innenfor vår profil.
@@ -13,12 +13,12 @@ const Jordnaert = () => {
             <p className='text-[16px] jlg:text-[17px] mt-[13px]'>
               Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen.
             </p>
-            <p className='hidden sm:block text-[16px] jlg:text-[17px] jmd:mt-[96px] max-w-[311px]'>
+            <p className='hidden sm:block text-[16px] jlg:text-[17px] jmd:mt-[96px] max-w-[19.4rem]'>
               Har du spørsmål eller samarbeids- forslag send oss en mail!
             </p>
 
             <button className='bg-gul rounded-[4px] mt-[40px] hidden jsm:block'>
-              <p className='text-brun font-youngs font-[16px] pt-[4px] pb-[6px] px-[10px]'>Kontakt oss</p>
+              <p className='text-brun font-youngs font-[16px] pt-[5px] pb-[6px] px-[10px]'>Kontakt oss</p>
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Jordnaert = () => {
               Har du spørsmål eller samarbeids- forslag send oss en mail!
             </p>
 
-            <button className='bg-gul rounded-[4px] mt-[40px]  jsm:hidden'>
+            <button className='bg-gul rounded-[4px] mt-[40px]  jsm:hidden mb-8 jmd:pb-0'>
               <p className='text-brun font-youngs font-[16px] pt-[4px] pb-[6px] px-[10px]'>Kontakt oss</p>
             </button>
           </div>
