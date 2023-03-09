@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jordnaert = () => {
   return (
-    <section className='bg-brun min-h-screen w-full '>
+    <section className='min-h-screen w-full'>
       <div className="top-[217px] md:justify-center mx-[20px]  jmd:mx-[60px] jlg:mx-[150px]">
 
         <div className=' block pt-24 jmd:pt-0 jmd:absolute jmd:top-[19.8rem] jmd:left-[22.18rem] xl:left-[455px] text-hvit'> <h1 className='text-[40px] font-youngs'>Jordnært Press</h1>

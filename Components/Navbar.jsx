@@ -8,7 +8,7 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 const Navbar = () => {
     const [nav, setNav] = useState (false);
-    const isLgScreen = useMediaQuery('(min-width: 375px)');
+    const isLgScreen = useMediaQuery('(min-width: 768px)');
 
 
     const handleNav = () => {
@@ -18,17 +18,17 @@ const Navbar = () => {
 
 
   return (
-    <section className='max-h-[206px] relativebg-[#1D1006] jlg:bg-transparent '>
+    <section className='max-h-[206px] bg-[#1D1006] jlg:bg-transparent fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[10rem] w-[1.8rem]  md:w-[7rem] pt-4'>
         <div>
-        <div>
+        <div className=''>
            <Link href='/'> 
-           <img className='fixed top-[24px] left-[20px] jmd:top-[65px] jmd:left-[60px] jlg:top-[66px] jlg:left-[150px] w-[29.2px] jlg:w-36' 
-            src={isLgScreen ? '/logoforslag03.svg' : '/logo-icon.svg'}
+           <img
+            src={isLgScreen ? '/jordneart-main-light.webp' : '/jordneart-icon-light.webp'}
            alt="Jordnaert Press" />
             </Link>
         </div>
-        <div className='hidden jmd:flex'>
-        <ul className='fixed jmd:top-[66px] jmd:right-[60px] jlg:top-[65px] jlg:right-[150px] leading-[24px] text-[20px] text-hvit font-youngs'>
+        <div className='hidden lg:flex text-right'>
+        <ul className='fixed md:top-[66px] md:right-[60px] jlg:top-[65px] jlg:right-[150px] leading-[24px] text-[20px] text-hvit font-youngs'>
             <li className='hover:text-gul'>
                 <Link href="/">
                     Jordnært Press
@@ -53,9 +53,9 @@ const Navbar = () => {
          </div>
         
         {/* mobile menu */}
-        <div onClick={handleNav} className='jmd:hidden fixed z-10 top-[24px] right-5 text-hvit'>
+        <div onClick={handleNav} className='fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[10rem] lg:hidden  z-10 top-[24px] right-5 text-hvit'>
         {nav ? (
-            <AiOutlineClose className='text-hvit jmd:text-[23px] font-semibold' />
+            <AiOutlineClose className='text-hvit md:text-[23px] font-semibold' />
           ) : (
             <AiOutlineMenu className='text-hvit text-[15px] jsm:text-[23px] font-semibold' />
           )}
@@ -63,7 +63,7 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-        <div className={nav ? 'jmd:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'jmd:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
+        <div className={nav ? 'md:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'md:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
         <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
             <li className=''>
                 <Link href="">
