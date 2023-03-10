@@ -21,19 +21,19 @@ const Fingernijorda = () => {
                     </div>
                 </div>
 
-                <div class="md:w-1/2 flex flex-start order-1  md:order-2   md:justify-start">
+                <div class="md:w-1/2  md:pl-8 md:pt-10 jlg:pt-0 jlg:pl-0 flex flex-start order-1  md:order-2   md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
-                            <div className='md:w-[60%] text-center mx-auto md:mx-0'>
+                            <div className='md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0'>
                                 <p className='text-[17px] lg:text-[17px]  md:pt-0 lg:mt-0'>
                                     Boklansering 18. April 2023
                                 </p>                            </div>
 
-                            <img className=' mx-auto md:mx-0 w-[60%] mt-4' src='./boka.webp' alt=""
+                            <img className=' mx-auto md:mx-0 w-[60%] md:w-[80%] jlg:w-[60%] mt-4' src='./boka.webp' alt=""
                             />
 
 
-                            <div className='w-[60%] text-center mx-auto md:mx-0'>
+                            <div className='w-[60%] md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0'>
 
                                 <button className='bg-gul rounded-[4px] mt-7 mb-8 md:pb-0'>
                                     <p className='text-brun font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Bestill på mail</p>
