@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '@/Components/Navbar';
-import Holding from '@/Components/Holding';
+import Bestilling from '@/Components/Bestilling';
+import Detaljer from '@/Components/Detaljer';
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       </Head>
       <main className='overscroll-none'>
         <Navbar />
-        <Holding /> 
+        <Bestilling /> 
+        <Detaljer />
       </main>
     </>
   );
