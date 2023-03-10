@@ -3,10 +3,10 @@ import React from 'react'
 const Fingernijorda = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-60 ">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-28 md:pt-60 ">
 
 
-                <div class="md:w-1/2 jlg:ml-[12.8rem] md:mt-8 ">
+                <div class="md:w-1/2 jlg:ml-[12.8rem] md:mt-8 order-2 md:order-1 ">
                     <div className='text-hvit'>
                         <h1 className='text-[30px] font-youngs'>Finger'n i jorda</h1>
                         <div className='md:max-w-sm leading-5'>
@@ -21,7 +21,7 @@ const Fingernijorda = () => {
                     </div>
                 </div>
 
-                <div class="md:w-1/2 flex flex-start  order-2 md:order-1  md:justify-start">
+                <div class="md:w-1/2 flex flex-start order-1  md:order-2   md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
                             <div className='md:w-[60%] text-center mx-auto md:mx-0'>
@@ -29,7 +29,7 @@ const Fingernijorda = () => {
                                     Boklansering 18. April 2023
                                 </p>                            </div>
 
-                            <img className=' mx-auto md:mx-0 w-[60%] md:mt-4' src='./boka.webp' alt=""
+                            <img className=' mx-auto md:mx-0 w-[60%] mt-4' src='./boka.webp' alt=""
                             />
 
 
@@ -46,14 +46,14 @@ const Fingernijorda = () => {
                 </div>
 
             </div>
-            <div className='flex justify-center w-full mt-[61px] mb-[61px]'>
+            <div className='flex justify-center w-full mt-[61px] mb-[61px] mx-auto px-4'>
                 <div className='bg-hvit text-brun rounded-md'>
-                    <div className='pl-[30px] pt-[20px] pr-[126px]'>
+                    <div className='pl-[30px] pt-[20px] md:pr-[126px]'>
                         <p classname="text-[17px]">Kommende arrangement:</p>
-                        <p className='font-youngs text-[19px]'>Litteraturhuset i Oslo – sal Nedjma, 3. etg.</p>
+                        <p className='font-youngs max-w-[70%] text-[19px]'>Litteraturhuset i Oslo – sal Nedjma, 3. etg.</p>
                         <p classname="text-[16px]">18. April 2023, kl. 19-21</p>                    </div>
 
-                        <div className='flex justify-end'>
+                        <div className='flex justify-center md:justify-end pb-4 md:pb-0'>
 
                             <button className='bg-brun rounded-[4px] mt-[11px] md:mb-[20px] md:mx-[20px]'>
                                 <p className='text-hvit font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Se detaljer</p>
