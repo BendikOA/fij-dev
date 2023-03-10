@@ -18,12 +18,12 @@ const Navbar = () => {
 
 
   return (
-    <section className='max-h-[206px] bg-[#1D1006] jlg:bg-transparent fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[10rem] w-[1.8rem]  md:w-[7rem] pt-4'>
+    <section className='max-h-[206px] jlg:bg-transparent fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[10rem] w-[1.8rem]  md:w-[7rem] pt-4'>
         <div>
         <div className=''>
            <Link href='/'> 
            <img
-            src={isLgScreen ? '/jordneart-main-light.webp' : '/jordneart-icon-light.webp'}
+            src={isLgScreen ? '/jnwl.webp' : '/jnwlb.webp'}
            alt="Jordnaert Press" />
             </Link>
         </div>
