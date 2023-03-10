@@ -31,22 +31,22 @@ const Navbar = () => {
         <ul className='fixed md:top-[66px] md:right-[60px] jlg:top-[65px] jlg:right-[150px] leading-[24px] text-[20px] text-hvit font-youngs'>
             <li className='hover:text-gul'>
                 <Link href="/">
-                    Jordnært Press
+                    Finger'n i jorda
                 </Link> 
              </li>
              <li className='mt-[19px] hover:text-gul'>
-                <Link href="boka">
-                    Om Boka
+                <Link href="bestilling">
+                    Bestilling
                 </Link>             
             </li>
             <li className='mt-[19px] hover:text-gul'>
-                <Link href="">
-                    Bestilling
+                <Link href="forfatterne">
+                    Forfatterne
                 </Link> 
             </li>
             <li className='mt-[19px] hover:text-gul'>
-                <Link href="">
-                    Forfatterene
+                <Link href="forlaget">
+                    Om forlaget
                 </Link>             
             </li> 
          </ul>
@@ -63,27 +63,27 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-        <div className={nav ? 'md:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'md:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
+        <div className={nav ? 'lg:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300' : 'lg:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ease-in duration-300'}>
         <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
             <li className=''>
-                <Link href="">
-                    Jordnært Press
+            <Link href="/">
+                    Finger'n i jorda
                 </Link> 
              </li>
              <li className='mt-[49px]'>
-                <Link href="">
-                    Om Boka
-                </Link>             
+             <Link href="bestilling">
+                    Bestilling
+                </Link>            
             </li>
             <li className='mt-[49px]'>
-                <Link href="">
-                    Bestilling
+            <Link href="forfatterne">
+                    Forfatterne
                 </Link> 
             </li>
             <li className='mt-[49px]'>
-                <Link href="">
-                    Forfatterene
-                </Link>             
+            <Link href="forlaget">
+                    Om forlaget
+                </Link>           
             </li> 
          </ul>
          </div>

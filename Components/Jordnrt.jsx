@@ -30,7 +30,7 @@ const Jordnrt = () => {
                 <div class="md:w-1/2 md:pl-24">
                     <div className=' text-hvit'>
                         <div className='leading-5'>
-                            <p className='text-[17px] lg:text-[17px] pt-24 md:pt-0 lg:mt-0'>
+                            <p className='text-[17px] lg:text-[17px] pt-24 md:pt-4 lg:mt-0'>
                                 Daglig leder
                             </p>
                             <h2 className='mt-6 text-[24px] font-youngs'>

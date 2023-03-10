@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Holding from '@/Components/Holding'
 import Navbar from '@/Components/Navbar'
-import Jordnaert from '@/Components/Jordnaert';
-import Jordnrt from '@/Components/Jordnrt'
+
+import Fingernijorda from '@/Components/Fingernijorda'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className='overscroll-none'>
       <Navbar />
-      <Jordnrt />
+      <Fingernijorda />
       </main>
     </>
   )

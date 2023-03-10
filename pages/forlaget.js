@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '@/Components/Navbar';
-import Holding from '@/Components/Holding';
+import Fingernijorda from '@/Components/Fingernijorda';
+import Jordnrt from '@/Components/Jordnrt';
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       </Head>
       <main className='overscroll-none'>
         <Navbar />
-        <Holding /> 
+        <Jordnrt/> 
       </main>
     </>
   );
