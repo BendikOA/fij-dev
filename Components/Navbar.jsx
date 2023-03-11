@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useLayoutEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useMediaQuery } from '@react-hook/media-query';
 import { useRouter } from 'next/router';
@@ -9,8 +9,17 @@ import { useRouter } from 'next/router';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [logoSrc, setLogoSrc] = useState('/jnwl.webp');
     const isLgScreen = useMediaQuery('(min-width: 768px) ');
     const router = useRouter();
+    
+    useLayoutEffect(() => {
+        if (isLgScreen) {
+          setLogoSrc('/jnwl.webp');
+        } else {
+          setLogoSrc('/jnwlb.webp');
+        }
+      }, [isLgScreen]);
 
     const handleNav = () => {
         setNav(!nav);
@@ -22,12 +31,12 @@ const Navbar = () => {
 
 
     return (
-        <section className='max-h-[206px] fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem]  md:w-[7rem] top-[18px] md:top-[14px] lg:top-[66px]'>
+        <section className='max-h-[206px] fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem] md:w-[7rem] top-[18px] md:top-[14px] lg:top-[66px]'>
             <div>
                 <div className=''>
                     <Link href='/'>
                         <img
-                            src={isLgScreen ? '/jnwl.webp' : '/jnwlb.webp'}
+                            src={logoSrc}
                             alt="Jordnaert Press" />
                     </Link>
                 </div>
