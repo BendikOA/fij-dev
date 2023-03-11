@@ -3,7 +3,7 @@ import React from 'react'
 const Jordnrt = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-screen md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-52 ">
+            <div className="flex flex-col md:h-screen md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[18.75rem]   ">
 
 
                 <div class="md:w-1/2 jlg:ml-[12.8rem] ">
@@ -30,7 +30,7 @@ const Jordnrt = () => {
                 <div class="md:w-1/2 md:pl-24">
                     <div className=' text-hvit'>
                         <div className='leading-5'>
-                            <p className='text-[17px] lg:text-[17px] pt-24 md:pt-4 lg:mt-0'>
+                            <p className='text-[17px] lg:text-[17px] lg:mt-0'>
                                 Daglig leder
                             </p>
                             <h2 className='mt-6 text-[24px] font-youngs'>

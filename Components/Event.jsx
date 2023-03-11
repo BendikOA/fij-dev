@@ -7,7 +7,7 @@ const Event = () => {
     <div className='bg-hvit text-brun rounded-md'>
         <div className='pl-[30px] pt-[20px] md:pr-[126px]'>
             <p classname="text-[17px]">Kommende arrangement:</p>
-            <p className='font-youngs max-w-[70%] lg:max-w-[100%] text-[19px]'>Litteraturhuset i Oslo – sal Nedjma, 3. etg.</p>
+            <p className='font-youngs max-w-[80%] lg:max-w-[100%] text-[19px]'>Litteraturhuset i Oslo – sal Nedjma, 3. etg.</p>
             <p classname="text-[16px]">18. April 2023, kl. 19-21</p></div>
 
         <div className='flex justify-center md:justify-end pb-4 md:pb-0'>

@@ -9,12 +9,16 @@ function Table() {
   <div className="flex  text-[17px] pt-8">
     <div className=" w-28  flex-1">Pris</div>
     <div className="  w-52">Porto/henting</div>
-    <div className="  w-52">Levering</div>
+    <div className=" hidden w-52">Levering</div>
   </div>
-  <div className="flex  pt-[16px] text-[20px] font-semibold font-youngs">
+  <div className="flex pt-[16px] text-[20px] font-semibold font-youngs">
     <div className=" w-28 flex-1">280,-</div>
     <div className="  w-52">70,-/0,-</div>
-    <div className="  w-52">18. April 2023</div>
+    <div className=" hidden w-52">18. April 2023</div>
+  </div>
+<div className='md:hidden'>
+  <div className=" font-youngs w-52">Levering</div>
+  <div className=" w-52">18. April 2023</div>
   </div>
     <div className='border border-hvit mt-10
     '></div>
