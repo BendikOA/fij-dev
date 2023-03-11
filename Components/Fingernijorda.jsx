@@ -3,16 +3,16 @@ import React from 'react'
 const Fingernijorda = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[18.75rem] ">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] jgl:pt-[18.75rem] md:pt-[11.3rem] ">
 
 
-                <div class="md:w-1/2 jlg:ml-[12.8rem] order-2 md:order-1 ">
+                <div class="md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] order-2 md:order-1 ">
                     <div className='text-hvit'>
-                                <p className='text-[17px] lg:text-[17px]  md:pt-0 lg:mt-0'>
+                                <p className='text-[17px] lg:text-[17px]  md:pt-0 lg:mt-0 text-gul'>
                                     Boklansering 18. April 2023
                                 </p>                           
                         <h1 className='text-[30px] font-youngs'>Finger'n i jorda</h1>
-                        <div className='md:max-w-sm leading-5'>
+                        <div className='md:max-w-[27.5rem] leading-5'>
                             <p className='text-[16px] lg:text-[17px] mt-[25px] md:mt-[30px]'>
                                 Syns du jord er viktig? Ikke umiddelbart? Mat, da? Og helse? Det meste av maten vår kommer fra planter som vokser i jord. Men om maten vår begynner med jord er det et paradoks at vi vet så lite om jord. Her har du muligheten til å fylle noen kunskapshull, både om jord i potter, i hager, og på åker og eng, men også om hvordan dagens matproduksjon og poltikk påvirker hvordan vi behandler jorda.
                             </p>
@@ -24,7 +24,7 @@ const Fingernijorda = () => {
                     </div>
                 </div>
 
-                <div class="md:w-1/2  md:pl-8 md:pt-10 jlg:pt-0 jlg:pl-0 flex flex-start order-1  md:order-2   md:justify-start">
+                <div class="md:w-1/2  md:pl-8 md:pt-10  jlg:pt-0 jlg:pl-0 flex flex-start order-1  md:order-2   md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
                      

@@ -13,6 +13,7 @@ module.exports = {
       sm: '375px',
       md: '768px',
       lg: '1024px',
+      lgl: '1280px',
       xl: '1512px',
       jsm: '375px',
       jmd: '834px',
@@ -23,6 +24,7 @@ module.exports = {
       'brunl': '#6D5746',
       'gul': '#F5B845',
       'hvit': '#E2D2BF',
+      'ogbrun': '#1D1006'
     },
     extend: {
       fontFamily: {
