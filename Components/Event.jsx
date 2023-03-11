@@ -13,8 +13,8 @@ const Event = () => {
 
                     <div className='flex justify-center md:justify-end pb-4 md:pb-0'>
 
-                        <button className='bg-brun rounded-[4px] mt-[39px] md:mt-[11px] md:mb-[20px] md:mx-[20px]'>
-                            <p className='text-hvit font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Se detaljer</p>
+                        <button className='bg-brun hover:bg-hvit text-hvit hover:text-brun hover:border-brun border rounded-[4px] mt-[39px] md:mt-[11px] md:mb-[20px] md:mx-[20px]'>
+                            <p className=' font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Se detaljer</p>
                         </button>
                     </div>
 
