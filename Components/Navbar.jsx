@@ -3,19 +3,26 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useMediaQuery } from '@react-hook/media-query';
+import { useRouter } from 'next/router';
 
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const isLgScreen = useMediaQuery('(min-width: 768px) ');
+    const router = useRouter();
 
     const handleNav = () => {
         setNav(!nav);
     };
 
+    const isActive = (href) => {
+        return router.pathname === href ? 'text-gul' : 'text-hvit';
+    };
+
+
     return (
-        <section className='max-h-[206px] fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem]  md:w-[7rem] md:top-[66px]'>
+        <section className='max-h-[206px] fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem]  md:w-[7rem] top-[18px] md:top-[14px] lg:top-[66px]'>
             <div>
                 <div className=''>
                     <Link href='/'>
@@ -26,22 +33,22 @@ const Navbar = () => {
                 </div>
                 <div className='hidden lg:flex text-right'>
                     <ul className='fixed  md:right-[60px] top-[65px] jlg:right-[150px] leading-[24px] text-[20px] text-hvit font-youngs'>
-                        <li className='hover:text-gul'>
+                        <li className={`mt-[19px] hover:text-gul ${isActive('/')}`}>
                             <Link href="/">
                                 Finger'n i jorda
                             </Link>
                         </li>
-                        <li className='mt-[19px] hover:text-gul'>
+                        <li className={`mt-[19px] hover:text-gul ${isActive('/bestilling')}`}>
                             <Link href="bestilling">
                                 Bestilling
                             </Link>
                         </li>
-                        <li className='mt-[19px] hover:text-gul'>
+                        <li className={`mt-[19px] hover:text-gul ${isActive('/forfatterne')}`}>
                             <Link href="forfatterne">
                                 Forfatterne
                             </Link>
                         </li>
-                        <li className='mt-[19px] hover:text-gul'>
+                        <li className={`mt-[19px] hover:text-gul ${isActive('/forlaget')}`}>
                             <Link href="forlaget">
                                 Om forlaget
                             </Link>
@@ -50,7 +57,7 @@ const Navbar = () => {
                 </div>
 
                 {/* mobile menu */}
-                <div onClick={handleNav} className='fixed pr-[0.5rem] lg:hidden  z-10 top-[24px] right-5 text-hvit'>
+                <div onClick={handleNav} className='fixed pr-[0.5rem] lg:hidden  z-10 top-[14px] md: right-5 text-hvit'>
                     {nav ? (
                         <AiOutlineClose className='text-hvit  jsm:text-[23px] font-semibold' />
                     ) : (

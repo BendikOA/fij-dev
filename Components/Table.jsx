@@ -21,7 +21,9 @@ function Table() {
   <div className="w-52">18. April 2023</div>
   </div>
     <div className='border border-hvit mt-10
-    '></div>
+    '>
+      
+    </div>
   <h1 className='text-[24px] font-youngs pt-8'>Ordinær pris etter 18.04.23</h1>
   <div className="flex  text-[17px] pt-8">
     <div className="w-28 flex-1">Pris</div>

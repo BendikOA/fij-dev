@@ -17,7 +17,7 @@ module.exports = {
       xl: '1512px',
       jsm: '375px',
       jmd: '834px',
-      jlg: '1512px',
+      jlg: '1512px'
     },
     colors: {
       'brun': '#321C0A',

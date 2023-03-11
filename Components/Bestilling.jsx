@@ -3,7 +3,7 @@ import React from 'react'
 const Bestilling = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] jgl:pt-[18.75rem] md:pt-[11.3rem]">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
                 <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]">
                     <div className='text-hvit'>
                         <p className='text-[17px]'>
@@ -38,8 +38,11 @@ const Bestilling = () => {
 
                             <div className='w-[60%] md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0'>
 
-                                <button className='bg-gul rounded-[4px] mt-4 mb-8 md:pb-0'>
-                                    <p className='text-brun font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>post@jordnært.no</p>
+
+                            <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-4 mb-8 md:pb-0'>
+
+                                    
+                                    <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>post@jordnært.no</p>
                                 </button>
                             </div>
 
