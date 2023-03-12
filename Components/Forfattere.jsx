@@ -3,8 +3,8 @@ import React from 'react'
 const Forfattere = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] lgl:mx-[19rem] jgl:mx-[23.6rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem] pb-12">
-                <div class="md:w-1/2 order-2 md:order-1 ">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center gap-11 pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] lgl:mx-[19rem] jgl:mx-[23.6rem]pb-12">
+                <div class="md:w-1/2  order-2 md:order-1 ">
                     <div className='text-hvit'>
                         <img className=' mx-auto md:mx-0 w-[131px] ' src='./erik.png' alt="" />
                         <h1 className='text-[30px] md:text-[40px] font-youngs pt-8 text-center md:text-left '>Erik Joner</h1>
@@ -15,8 +15,8 @@ const Forfattere = () => {
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 md:ml-[2rem] jgl:ml-[4.3rem] order-2 md:order-1 pt-[4.1rem] md:pt-[0]">
-                    <div className='text-hvit'>
+                <div class="md:w-1/2  order-2 md:order-1 pt-[4.1rem] md:pt-[0] ">
+                    <div className='text-hvit '>
                         <img className=' mx-auto md:mx-0 w-[131px] ' src='./arne.png' alt=""
                         />
                         <h1 className='text-[30px] md:text-[40px] font-youngs pt-8 text-center md:text-left '>Arne Grønlund</h1>

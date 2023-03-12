@@ -4,7 +4,7 @@ const Bestilling = () => {
     return (
         <section className='w-full '>
             <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
-                <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]">
+                <div className="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]">
                     <div className='text-hvit'>
                         <p className='text-[17px]'>
                             Takk for at du vil kjøpe boka vår!</p>
@@ -23,7 +23,7 @@ const Bestilling = () => {
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2  md:pl-8 md:pt-10 jlg:pt-0 jlg:pl-0 flex flex-start   md:justify-start">
+                <div className="md:w-1/2  pt-8 md:pl-8 md:pt-10 jlg:pt-0 jlg:pl-0 flex flex-start   md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
                             <img className=' mx-auto md:mx-0 w-[60%] md:w-[80%] jlg:w-[60%] ' src='./boka.webp' alt=""

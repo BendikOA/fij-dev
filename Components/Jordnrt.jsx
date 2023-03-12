@@ -4,7 +4,7 @@ const Jordnrt = () => {
     return (
         <section className='w-full '>
             <div className="flex flex-col md:h-screen md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
-                <div class="md:w-1/2 jlg:ml-[12.8rem] ">
+                <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem] ">
                     <div className='text-hvit'>
                         <h1 className='text-[30px] font-youngs'>Jordnært Press</h1>
                         <div className='md:max-w-[460px] leading-5'>

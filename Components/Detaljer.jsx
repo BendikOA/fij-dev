@@ -8,7 +8,7 @@ const Detaljer = () => {
 
 
         <div class="lgl:ml-[8.1rem] jlg:ml-[12.8rem] md:mt-8 order-2 md:order-1 ">
-            <div className='text-hvit'>
+            <div className='text-hvit pt-8'>
     
                 <Table />
                 
