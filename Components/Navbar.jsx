@@ -14,8 +14,6 @@ const Navbar = () => {
     const isJLgScreen = useMediaQuery('(min-width: 1280px) ');
     const [bgColorClass, setbgColorClass] = useState('transparent');
     const router = useRouter();
-    
- 
 
     useLayoutEffect(() => {
         if (isLgScreen) {

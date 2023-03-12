@@ -4,7 +4,10 @@ import Navbar from '@/Components/Navbar';
 import Bestilling from '@/Components/Bestilling';
 import Detaljer from '@/Components/Detaljer';
 
+
 const Home = () => {
+
+
   return (
     <>
       <Head>
@@ -14,8 +17,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='overscroll-none'>
-        <Navbar />
-        <Bestilling /> 
+      <Navbar />
+        <Bestilling />
         <Detaljer />
       </main>
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const handleCopy = async () => {
     try {
@@ -12,7 +12,18 @@ const handleCopy = async () => {
     }
   };
 
-const Bestilling = () => {
+  const Bestilling = ({ setY }) => {
+    useEffect(() => {
+        const handleScroll = () => {
+          const newY = window.scrollY;
+          setY(newY);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, [setY]);
+
     const [kopi, setKopi] = useState(false);
 
     const handleKopi = () => {

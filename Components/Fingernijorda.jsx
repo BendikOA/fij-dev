@@ -7,7 +7,7 @@ const Fingernijorda = () => {
             <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem] ">
 
 
-                <div class="md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] order-2 md:order-1 md:bg-brun xl:bg-transparent md:z-20">
+                <div class="md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] order-2 md:order-1 md:bg-brun xl:bg-transparent ">
                     <div className='text-hvit'>
                                 <p className='text-[1.063rem] xxl:text-2xl  md:pt-0 lg:mt-0 text-gul'>
                                     Boklansering 18. April 2023
