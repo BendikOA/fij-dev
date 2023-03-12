@@ -7,7 +7,7 @@ const Detaljer = () => {
     <div className="flex flex-col md:h-auto md:flex-row  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem]">
 
 
-        <div class=" jlg:ml-[12.8rem] md:mt-8 order-2 md:order-1 ">
+        <div class="lgl:ml-[8.1rem] jlg:ml-[12.8rem] md:mt-8 order-2 md:order-1 ">
             <div className='text-hvit'>
     
                 <Table />

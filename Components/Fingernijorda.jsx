@@ -24,7 +24,7 @@ const Fingernijorda = () => {
                     </div>
                 </div>
 
-                <div class="md:w-1/2  md:pl-8 md:pt-10  jlg:pt-0 jlg:pl-0 flex flex-start order-1  md:order-2   md:justify-start">
+                <div className="md:w-1/2  md:pl-8 md:pt-10  jlg:pt-0 jlg:pl-0 flex flex-start order-1  md:order-2   md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
                      

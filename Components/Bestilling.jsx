@@ -3,7 +3,7 @@ import React from 'react'
 const Bestilling = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
                 <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]">
                     <div className='text-hvit'>
                         <p className='text-[17px]'>

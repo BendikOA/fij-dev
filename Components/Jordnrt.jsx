@@ -24,7 +24,7 @@ const Jordnrt = () => {
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 md:pl-24">
+                <div className="md:w-1/2 md:pl-24">
                     <div className=' text-hvit'>
                         <div className='leading-5'>
                             <p className='text-[17px] lg:text-[17px] lg:mt-0 mt-[6.25rem]'>

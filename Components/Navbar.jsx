@@ -11,6 +11,8 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [logoSrc, setLogoSrc] = useState('/jnwl.webp');
     const isLgScreen = useMediaQuery('(min-width: 768px) ');
+    const isJLgScreen = useMediaQuery('(min-width: 1280px) ');
+    const [bgColorClass, setbgColorClass] = useState('transparent');
     const router = useRouter();
     
     useLayoutEffect(() => {
@@ -20,6 +22,16 @@ const Navbar = () => {
           setLogoSrc('/jnwlb.webp');
         }
       }, [isLgScreen]);
+
+      useLayoutEffect(() => {
+        if (!isJLgScreen) {
+          setbgColorClass('bg-brun');
+        } else {
+          setbgColorClass('bg-transparent');
+        }
+      }, [isJLgScreen]);
+
+      
 
     const handleNav = () => {
         setNav(!nav);
@@ -31,8 +43,9 @@ const Navbar = () => {
 
 
     return (
-        <section className='max-h-[206px] fixed mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem] md:w-[7rem] top-[18px] md:top-[14px] lg:top-[66px]'>
-            <div>
+        <section className={`min-h-auto fixed w-full ${bgColorClass}`}>
+
+            <div className=' mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem] md:w-[7rem] pt-[18px] md:pt-[14px] lg:pt-[66px] pb-4'>
                 <div className=''>
                     <Link href='/'>
                         <img
