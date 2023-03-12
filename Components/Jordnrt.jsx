@@ -24,10 +24,12 @@ const Jordnrt = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div className="md:w-1/2 md:pl-24">
                     <div className=' text-hvit'>
                         <div className='leading-5 '>
-                            <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl lg:mt-0 mt-[6.25rem]'>
+                            <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl lg:mt-0 mt-[6.25rem] md:mt-[1rem]'>
                                 Daglig leder
                             </p>
                             <h2 className='mt-6 text-[24px] font-youngs'>

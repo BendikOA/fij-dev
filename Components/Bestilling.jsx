@@ -39,7 +39,7 @@ const handleCopy = async () => {
     return (
         <section className='w-full '>
             <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem] ">
-                <div className="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem] md:bg-brun xl:bg-transparent ">
+                <div className="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]">
                     <div className='text-hvit'>
                         <p className='text-[1.063rem] xxl:text-2xl '>
                             Takk for at du vil kjøpe boka vår!</p>

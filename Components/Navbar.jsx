@@ -91,22 +91,22 @@ const Navbar = () => {
                 <div className={nav ? 'lg:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ' : 'lg:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun'}>
                     <div className='bg-ogbrun rounded-[15px] w-[96%] h-[98%] flex justify-center items-center'>
                         <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
-                            <li className=''>
+                        <li className={`${isActive('/')}`}>
                                 <Link href="/">
                                     Finger'n i jorda
                                 </Link>
                             </li>
-                            <li className='mt-[49px]'>
+                            <li className={`mt-[49px] ${isActive('/bestilling')}`}>
                                 <Link href="bestilling">
                                     Bestilling
                                 </Link>
                             </li>
-                            <li className='mt-[49px]'>
+                            <li className={`mt-[49px] ${isActive('/forfatterne')}`}>
                                 <Link href="forfatterne">
                                     Forfatterne
                                 </Link>
                             </li>
-                            <li className='mt-[49px]'>
+                            <li className={`mt-[49px] ${isActive('/forlaget')}`}>
                                 <Link href="forlaget">
                                     Om forlaget
                                 </Link>
