@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
+import Postbutton from './Postbutton';
 
 const Jordnrt = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-screen md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
+            <div className="flex flex-col md:h-screen md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] lg:pt-[16rem] jlg:pt-[18.75rem]">
                 <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem] ">
                     <div className='text-hvit'>
                         <h1 className='text-[1.875rem] xxl:text-4xl font-youngs'>Jordnært Press</h1>
@@ -17,10 +19,10 @@ const Jordnrt = () => {
                             <p className='hidden md:block text-[16px] lg:text-[17px] md:mt-[96px] max-w-[19.4rem]'>
                                 Har du spørsmål eller samarbeids- forslag send oss en mail!
                             </p>
-                            <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px]   mt-[40px] hidden md:block mb-[5.6rem] md:pb-0'>
-
-                                <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Kontakt oss</p>
-                            </button>
+                            <div className='hidden md:block mb-[5.6rem] pl-2'>
+                            <Postbutton className="hidden md:block "/>
+       
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -58,10 +60,11 @@ const Jordnrt = () => {
                                 <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl justify-center'>
                                     Har du spørsmål eller samarbeids- forslag send oss en mail!
                                 </p>
-                                <button className=' bg-gul	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-[5.6rem] md:pb-0'>
 
-                                    <p className='font-youngs text-[1rem] lg:text-[1.063rem] xxl:text-2xl pt-[6px] pb-[6px] px-[10px]'>Kontakt oss</p>
-                                </button></div>
+                                <Postbutton className="hidden md:block "/>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>

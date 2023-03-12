@@ -3,7 +3,7 @@ import React from 'react'
 const Forfattere = () => {
     return (
         <section className='w-full '>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center gap-11 md:pt-[11.3rem] jlg:pt-[18.75rem]   mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] pb-12">
+            <div className="flex flex-col md:h-auto md:flex-row justify-center gap-11 md:pt-[11.3rem] lg:pt-[16rem] jlg:pt-[18.75rem]   mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] pb-12">
                 <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]  order-2 md:order-1 ">
                     <div className='text-hvit'>
                         <img className=' mx-auto md:mx-0 w-[131px] ' src='./erik.png' alt="Portrett av Erik Jone" />
