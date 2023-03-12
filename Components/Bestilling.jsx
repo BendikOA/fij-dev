@@ -1,6 +1,13 @@
 import React from 'react'
+import Link from 'next/link'
+import { AiFillMail } from 'react-icons/ai'
+import { useState } from 'react'
+
 
 const Bestilling = () => {
+
+
+
     return (
         <section className='w-full '>
             <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] jlg:pt-[18.75rem]">
@@ -31,11 +38,15 @@ const Bestilling = () => {
                             <div className='md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0 pt-4'>
                                 <p className='text-[17px] lg:text-[17px]  md:pt-0 lg:mt-0'>
                                     Forhåndsbestill på mail:
-                                </p>                            </div>
+                                </p>
+                            </div>
                             <div className='w-[60%] md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0'>
-                            <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-4 mb-8 md:pb-0'>
-                                    <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>post@jordnært.no</p>
+
+                                <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-4 mb-8 md:pb-0'>
+                                    <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>post@jordnaert.no </p>
                                 </button>
+
+
                             </div>
 
                         </div>

@@ -56,7 +56,7 @@ const Jordnrt = () => {
                                 <p className='text-[16px] lg:text-[17px] justify-center'>
                                     Har du spørsmål eller samarbeids- forslag send oss en mail!
                                 </p>
-                                <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-[5.6rem] md:pb-0'>
+                                <button className=' bg-gul	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-[5.6rem] md:pb-0'>
 
                                     <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Kontakt oss</p>
                                 </button></div>

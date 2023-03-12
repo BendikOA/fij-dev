@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Fingernijorda = () => {
@@ -34,10 +35,10 @@ const Fingernijorda = () => {
 
 
                             <div className='w-[60%] md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0'>
-
-                                <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-8 md:pb-0'>
-                                    <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Bestill på mail</p>
-                                </button>
+                            <Link href="bestilling">
+                            <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-8 md:pb-0'>
+                                    <p className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px]'>Bestillingsinfo </p>
+                                </button></Link>
                             </div>
 
                         </div>
