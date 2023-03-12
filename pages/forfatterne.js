@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from '@/Components/Navbar';
-import Holding from '@/Components/Holding';
 import Forfattere from '@/Components/Forfattere';
 import Event from '@/Components/Event';
 
@@ -17,7 +16,6 @@ const Home = () => {
       <main className='overscroll-none'>
         <Navbar />
         <Forfattere /> 
-        <Event />
       </main>
     </>
   );

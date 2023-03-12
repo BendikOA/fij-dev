@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import Holding from '@/Components/Holding'
 import Navbar from '@/Components/Navbar'
 import Event from '@/Components/Event'
 
@@ -19,7 +18,6 @@ export default function Home() {
       <main className='overscroll-none'>
       <Navbar />
       <Fingernijorda />
-      <Event />
 
       </main>
     </>

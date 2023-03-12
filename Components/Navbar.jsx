@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { useState, useLayoutEffect } from 'react';
+import { useState, useLayoutEffect, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useMediaQuery } from '@react-hook/media-query';
 import { useRouter } from 'next/router';
@@ -15,6 +15,8 @@ const Navbar = () => {
     const [bgColorClass, setbgColorClass] = useState('transparent');
     const router = useRouter();
     
+ 
+
     useLayoutEffect(() => {
         if (isLgScreen) {
           setLogoSrc('/jnwl.webp');
@@ -41,7 +43,6 @@ const Navbar = () => {
         return router.pathname === href ? 'text-gul' : 'text-hvit';
     };
 
-
     return (
         <section className={`min-h-auto fixed w-full ${bgColorClass}`}>
 
@@ -54,7 +55,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className='hidden lg:flex text-right'>
-                    <ul className='fixed  md:right-[60px] top-[65px] jlg:right-[150px] leading-[24px] text-[20px] text-hvit font-youngs'>
+                    <ul className='fixed  md:right-[60px] top-[65px] jlg:right-[150px] leading-[24px] text-[20px] xxl:text-[30px] xxl:leading-[34px] text-hvit font-youngs'>
                         <li className={`mt-[19px] hover:text-gul ${isActive('/')}`}>
                             <Link href="/">
                                 Finger'n i jorda
