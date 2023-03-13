@@ -8,8 +8,11 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Fingern i jorda</title>
-        <meta name="description" content="Finger'n i jorda - Forlaget" />
+      <title>Om forlaget Jordnært Press</title>
+        <meta name="description" content="Vi er et forlag som deler gjerne våre erfaringer og kan bistå med utgivelser som faller innenfor vår profil." />
+        <meta property="og:image" content="/fijimg.webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

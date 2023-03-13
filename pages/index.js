@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Finger'n i jorda</title>
-        <meta name="description" content="hjemmesiden da lissom" />
+        <title>Forside - Finger’n i jorda</title>
+        <meta name="description" content="Jordforskerne Erik Joner og Arne Grønlund gir deg et kræsjkurs i jordfag, krydret med referanser som spenner fra Bibelen til Kill Bill, og nyttige tips for alle som liker å dyrke planter." />
         <meta property="og:image" content="/fijimg.webp" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />

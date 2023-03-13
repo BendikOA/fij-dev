@@ -11,8 +11,9 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Fingern i jorda</title>
-        <meta name="description" content="Finger'n i jorda - Bestilling" />
+      <title>Bestill boka Finger’n i jorda</title>
+        <meta name="description" content="Takk for at du vil kjøpe boka vår!" />
+        <meta property="og:image" content="/fijimg.webp" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
