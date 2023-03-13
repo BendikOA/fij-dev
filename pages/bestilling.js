@@ -14,6 +14,8 @@ const Home = () => {
       <title>Bestill boka Finger’n i jorda</title>
         <meta name="description" content="Takk for at du vil kjøpe boka vår!" />
         <meta property="og:image" content="/fijimg.webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
