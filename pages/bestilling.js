@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Head>
         <title>Fingern i jorda</title>
-        <meta name="description" content="Fingern i jorda" />
+        <meta name="description" content="Finger'n i jorda - Bestilling" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

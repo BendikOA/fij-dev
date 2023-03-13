@@ -31,7 +31,7 @@ const Bestilling = () => {
                 <div className="md:w-1/2  pt-8 md:pl-12 md:pt-10 lg:pt-0 lg:pl-6 xl:pl-0 flex flex-start md:justify-start">
                     <div className=' text-hvit '>
                         <div className='leading-5'>
-                            <img className=' mx-auto md:mx-0 w-[60%] md:w-[80%] jlg:w-[60%] ' src='./boka.webp' alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme."
+                            <img className=' mx-auto md:mx-0 w-[60%] md:w-[80%] jlg:w-[60%] ' src='../boka.webp' alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme."
                             />
                             <div className='md:w-[80%] jlg:w-[60%] text-center mx-auto md:mx-0 pt-4'>
                                 <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl  md:pt-0 lg:mt-0'>
