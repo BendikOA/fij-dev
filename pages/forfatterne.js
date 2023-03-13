@@ -10,7 +10,7 @@ const Home = () => {
       <Head>
       <title>Forfatterne bak Finger’n i jorda</title>
         <meta name="description" content="Les mer om jordforskerne Erik Joner og Arne Grønlund." />
-        <meta property="og:image" content="/ogtest.wepb" />
+        <meta property="og:image" content="/fijimg.webp" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
