@@ -28,7 +28,7 @@ const Postbutton = () => {
 
 
   return (
-    <div className='w-[60%] md:w-[80%] jlg:w-[60%] flex text-center justify-center mx-auto md:mx-0'>
+    <div className=' flex text-center md:mx-0'>
     <Link href="mailto:post@jordnaert.no">
         <button className=' bg-gul 	hover:bg-brun text-brun  hover:text-gul hover:border-gul border rounded-[4px] mt-4 mb-8 md:pb-0'>
             <p className='font-youngs text-[1rem] lg:text-[1.063rem] xxl:text-2xl pt-[6px] pb-[6px] px-[10px]'>post@jordnaert.no

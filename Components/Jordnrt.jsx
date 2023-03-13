@@ -19,7 +19,7 @@ const Jordnrt = () => {
                             <p className='hidden md:block text-[16px] lg:text-[17px] md:mt-[96px] max-w-[19.4rem]'>
                                 Har du spørsmål eller samarbeids- forslag send oss en mail!
                             </p>
-                            <div className='hidden md:block mb-[5.6rem] pl-2'>
+                            <div className='hidden md:block mb-[5.6rem]'>
                             <Postbutton className="hidden md:block "/>
        
                            </div>

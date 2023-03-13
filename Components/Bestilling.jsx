@@ -38,9 +38,9 @@ const Bestilling = () => {
                                     Forhåndsbestill på mail:
                                 </p>
                             </div>
-
+                            <div className='flex text-center justify-center mx-auto md:mx-3 xl:mx-2 w-[60%] md:w-[80%] jlg:w-[60%] '>
                            <Postbutton />
-
+                           </div>
                         </div>
                     </div>
 
