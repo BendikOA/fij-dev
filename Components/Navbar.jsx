@@ -42,13 +42,14 @@ const Navbar = () => {
     };
 
     return (
-        <section className={`min-h-auto fixed w-full ${bgColorClass}`}>
+        <div className={`min-h-auto fixed w-full ${bgColorClass}`}>
 
             <div className=' mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem] md:w-[7rem] pt-[18px] md:pt-[14px] lg:pt-[66px] pb-4'>
                 <div className=''>
                     <Link href='/'>
                         <img
                             src={logoSrc}
+                            width="100%" height="100%"
                             alt="Jordnaert Press" />
                     </Link>
                 </div>
@@ -114,7 +115,7 @@ const Navbar = () => {
                         </ul>
                     </div></div>
             </div>
-        </section>
+        </div>
     )
 }
 

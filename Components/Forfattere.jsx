@@ -6,7 +6,8 @@ const Forfattere = () => {
             <div className="flex flex-col md:h-auto md:flex-row justify-center gap-11 md:pt-[11.3rem] lg:pt-[16rem] jlg:pt-[18.75rem]   mx-[1.25rem] md:mx-[3.75rem]  lg:mx-[9.3rem] pt-[8.1rem] pb-12">
                 <div class="md:w-1/2 lgl:ml-[8.3rem]  jlg:ml-[12.8rem]  order-2 md:order-1 ">
                     <div className='text-hvit'>
-                        <img className=' mx-auto md:mx-0 w-[131px] ' src='../erik.png' alt="Portrett av Erik Jone" />
+                        <img className=' mx-auto md:mx-0 w-[131px] ' src='../erik.png' alt="Portrett av Erik Jone" width="100%" height="100%"
+                            />
                         <h1 className='text-[30px] md:text-[40px] font-youngs pt-8 text-center md:text-left '>Erik Joner</h1>
                         <div className='md:max-w-sm xxl:max-w-full  leading-5'>
                             <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl mt-[25px] md:mt-[30px] max-w-[342px] xxl:max-w-[500px]'>
@@ -17,7 +18,7 @@ const Forfattere = () => {
                 </div>
                 <div class="md:w-1/2  order-2 md:order-1 pt-[4.1rem] md:pt-[0] ">
                     <div className='text-hvit '>
-                        <img className=' mx-auto md:mx-0 w-[131px] ' src='../arne.png' alt="Portrett av Arne Grønlund"
+                        <img className=' mx-auto md:mx-0 w-[131px] ' src='../arne.png' alt="Portrett av Arne Grønlund"  width="100%" height="100%"
                         />
                         <h1 className='text-[30px] md:text-[40px] font-youngs pt-8 text-center md:text-left '>Arne Grønlund</h1>
                         <div className='md:max-w-sm xxl:max-w-full leading-5'>

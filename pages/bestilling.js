@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Navbar from '@/Components/Navbar';
 import Bestilling from '@/Components/Bestilling';
 import Detaljer from '@/Components/Detaljer';
@@ -12,6 +11,7 @@ const Home = () => {
     <>
       <Head>
       <title>Bestill boka Finger’n i jorda</title>
+      <meta property="og:type" content="website" />
         <meta name="description" content="Takk for at du vil kjøpe boka vår!" />
         <meta property="og:image" content="/fijimg.webp" />
         <meta property="og:image:width" content="1200" />

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Event = () => {
     return (
-        <section className='w-full'>
+        <div className='w-full'>
 
             <div className='flex justify-center w-full mt-[61px] mb-[61px] mx-auto px-4'>
                 <div className='bg-hvit text-brun rounded-md'>
@@ -21,7 +21,7 @@ const Event = () => {
 
                 </div>
             </div>
-        </section>)
+        </div>)
 }
 
 export default Event

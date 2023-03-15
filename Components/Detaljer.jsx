@@ -3,7 +3,7 @@ import Table from './Table'
 
 const Detaljer = () => {
   return (
-    <section className='w-full '>
+    <div className='w-full '>
     <div className="flex flex-col md:h-auto md:flex-row  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem]">
 
 
@@ -21,7 +21,7 @@ const Detaljer = () => {
 
     </div>
 
-</section>    )
+</div>    )
 }
 
 export default Detaljer
