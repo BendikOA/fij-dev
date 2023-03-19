@@ -15,10 +15,10 @@ const Bestilling = () => {
                     <div className='text-hvit'>
                         <p className='text-[1.063rem] xxl:text-2xl '>
                             Takk for at du vil kjøpe boka vår!</p>
-                        <h1 className='text-[1.875rem] font-youngs pt-[8px]'>Forhåndsbestilling</h1>
+                        <h1 className='text-[1.875rem] xxl:text-4xl font-youngs pt-[8px]'>Forhåndsbestilling</h1>
                         <div className='md:max-w-[27.5rem] xl:max-w-[27.5rem] xxl:max-w-xl leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl '>
                             <p className='  mt-[25px] md:mt-[30px]'>
-                                Fram til lanseringen den 18.4 forhåndsselger vi boka med 20% rabatt. Bøker som er bestilt og betalt innen denne datoen vil kunne avhentes på Litteraturhuset den 18.4 (eller i Oslo/på Ås etter avtale). Vi har ikke tillatelse til å selge boka på arrangementet, og henviser da til regulært salg hos Norli, avd. Litteraturhuset til ordinær pris (kr 350,-). Ønsker du boka tilsendt i posten, kommer kr 70,- i frakt i tillegg til prisen. Bøker sendes ut tidligst 17.4.
+                                Fram til lanseringen den 18.4 forhåndsselger vi boka med 20% rabatt. Bøker som er bestilt og betalt innen denne datoen vil kunne avhentes på Litteraturhuset den 18.4 (eller i Oslo/på Ås etter avtale). Vi har ikke tillatelse til å selge boka på arrangementet, og henviser da til regulært salg hos Norli, avd. Litteraturhuset til ordinær pris (kr 350,-). Ønsker du boka tilsendt i posten, kommer kr 70,- i frakt i tillegg til prisen (egne priser utenfor Norge). Bøker sendes ut tidligst 17.4.
                             </p>
                             <p className=' mt-[13px]'>
                                 Ved bestilling, vennligst oppgi navn, adresse, betalingsmåte (Vipps, bankoverføring) om faktura ønskes tilsendt og om boka ønskes tilsendt med Posten eller avhentes i Oslo eller på Ås etter avtale.

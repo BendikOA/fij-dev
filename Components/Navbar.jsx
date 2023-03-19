@@ -17,9 +17,9 @@ const Navbar = () => {
 
     useLayoutEffect(() => {
         if (isLgScreen) {
-          setLogoSrc('/jnwl.webp');
+          setLogoSrc('/jnwl2.webp');
         } else {
-          setLogoSrc('/jnwlb.webp');
+          setLogoSrc('/jnwlb2.webp');
         }
       }, [isLgScreen]);
 
