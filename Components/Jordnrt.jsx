@@ -46,7 +46,7 @@ const Jordnrt = () => {
                             <h2 className='mt-6 text-[24px] font-youngs'>
                                 Jordnært Press
                             </h2>
-                            <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl mt-2'>
+                            <p className='text-[1rem] lg:text-[1n.063rem] xxl:text-2xl mt-2'>
                                 Eventyrveien 19<br />
                                 0851 Oslo
                             </p>
@@ -54,7 +54,7 @@ const Jordnrt = () => {
                                 Org.nr
                             </p>
                             <h2 className='mt-6 text-[24px] font-youngs'>
-                                892 244 252
+                                895 244 252
                             </h2>
                             <div class='w-full flex flex-col justify-center items-center text-center md:hidden pt-24 max-w-xs mx-auto'>
                                 <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl justify-center'>

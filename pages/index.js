@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/Components/Navbar'
+import Event from '@/Components/Event'
 
 import Fingernijorda from '@/Components/Fingernijorda'
 
@@ -20,6 +21,7 @@ export default function Home() {
       <main className='overscroll-none'>
       <Navbar />
       <Fingernijorda />
+      <Event />
       </main>
     </>
   )
