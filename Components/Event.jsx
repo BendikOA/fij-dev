@@ -10,23 +10,23 @@ const Event = () => {
 
                         <h1 className='text-[1.6rem] xxl:text-4xl xxl:pt-4 font-youngs'>Innhold</h1>
                         <div className='md:max-w-[27.5rem] xl:max-w-[27.5rem] xxl:max-w-xl leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl '>
-                        <ol className='pt-4'>
-    <li className='pt-4'>1. Det grunnleggende</li>
-    <li className="pt-4">2. Jord, verdens mest artsrike økosystem</li>
-    <li className="pt-4">3. Hva består jorda av?</li>
-    <li className="pt-4">4. Plantenæringsstoffer</li>
-    <li className="pt-4">5. Jordas egenskaper</li>
-    <li className="pt-4">6. Hvordan kan vi forbedre jord?</li>
-    <li className="pt-4">7. Jord, miljø og klima</li>
-    <li className="pt-4">8. Jord, en del av løsningen</li>
-    </ol>
-    <ol className='pt-4 pb-8'>
-    <li className='pt-4'>Jordordforklaringer</li>
-    <li className='pt-4'>Anbefalt lesing</li>
+                            <ol className='pt-4'>
+                                <li className='pt-4'>1. Det grunnleggende</li>
+                                <li className="pt-4">2. Jord, verdens mest artsrike økosystem</li>
+                                <li className="pt-4">3. Hva består jorda av?</li>
+                                <li className="pt-4">4. Plantenæringsstoffer</li>
+                                <li className="pt-4">5. Jordas egenskaper</li>
+                                <li className="pt-4">6. Hvordan kan vi forbedre jord?</li>
+                                <li className="pt-4">7. Jord, miljø og klima</li>
+                                <li className="pt-4">8. Jord, en del av løsningen</li>
+                            </ol>
+                            <ol className='pt-4 pb-8'>
+                                <li className='pt-4'>Jordordforklaringer</li>
+                                <li className='pt-4'>Anbefalt lesing</li>
 
 
-</ol>
-                         
+                            </ol>
+
                         </div>
                     </div>
                 </div>
