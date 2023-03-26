@@ -44,7 +44,7 @@ const Event = () => {
                                     <div className='bg-brun hover:bg-hvit text-hvit hover:text-brun hover:border-brun border rounded-[4px] mt-7 mb-8 md:pb-0 cursor-pointer'
                                         style={{ boxSizing: 'border-box', display: 'inline-block' }}>
                                         <div className='font-youngs font-[16px] pt-[6px] pb-[6px] px-[10px] xxl:text-2xl'>
-                                            Se Detaljer
+                                            Se detaljer
                                         </div>
                                     </div>
                                 </Link>
