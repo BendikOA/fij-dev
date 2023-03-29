@@ -8,7 +8,7 @@ const Event = () => {
                 <div className=' md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] pt-8 md:pt-0  md:bg-brun xl:bg-transparent'>
                     <div className='text-hvit'>
 
-                        <h1 className='text-[1.6rem] xxl:text-4xl xxl:pt-4 font-youngs'>Innhold</h1>
+                        <h1 className='text-[1.6rem] xxl:text-4xl xxl:pt-4 font-youngs'>Innholdsfortegnelse</h1>
                         <div className='md:max-w-[27.5rem] xl:max-w-[27.5rem] xxl:max-w-xl leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl '>
                             <ol className='pt-4'>
                                 <li className='pt-4'>1. Det grunnleggende</li>
