@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-       <title>Forside - Finger’n i jorda</title>
+        <title>Forside - Finger’n i jorda</title>
         <meta name="description" content="Jordforskerne Erik Joner og Arne Grønlund gir deg et kræsjkurs i jordfag, krydret med referanser som spenner fra Bibelen til Kill Bill, og nyttige tips for alle som liker å dyrke planter." />
         <meta property="og:image" content="/fijimg.webp" />
         <meta property="og:image:width" content="1200" />
@@ -19,9 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className='overscroll-none'>
-      <Navbar />
-      <Fingernijorda />
-      <Event />
+        <Navbar />
+        <Fingernijorda />
+        <Event />
       </main>
     </>
   )

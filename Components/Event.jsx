@@ -30,8 +30,8 @@ const Event = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' md:w-1/2 md:pl-8  jlg:pt-0 jlg:pl-0 flex justify-center flex-start   md:justify-start '>
-                    <div className='bg-hvit text-brun rounded-md w-[80%] md:w-[80%] jlg:w-[60%] text-center max-h-[350px] md:max-h-[450px] lg:max-h-[380px] xxl:max-h-[450px] xxl:pt-8 xxl:text-4xl'>
+                <div className='md:w-1/2 md:pl-8  jlg:pt-0 jlg:pl-0 flex justify-center flex-start   md:justify-start '>
+                    <div className='hidden bg-hvit text-brun rounded-md w-[80%] md:w-[80%] jlg:w-[60%] text-center max-h-[350px] md:max-h-[450px] lg:max-h-[380px] xxl:max-h-[450px] xxl:pt-8 xxl:text-4xl'>
                         <div className='px-[30px] pt-[20px]'>
                             <p classname="text-[17px]  ">Kommende arrangement:</p>
                             <p className='font-youngs max-w-[100%] lg:max-w-[100%] text-[19px] pt-12 pb-8'>Litteraturhuset i Oslo – sal Nedjma, 3. etg.</p>

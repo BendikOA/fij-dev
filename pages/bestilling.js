@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       <Head>
-      <title>Bestill boka Finger’n i jorda</title>
-      <meta property="og:type" content="website" />
+        <title>Bestill boka Finger’n i jorda</title>
+        <meta property="og:type" content="website" />
         <meta name="description" content="Takk for at du vil kjøpe boka vår!" />
         <meta property="og:image" content="/fijimg.webp" />
         <meta property="og:image:width" content="1200" />
@@ -20,9 +20,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='overscroll-none'>
-      <Navbar />
+        <Navbar />
         <Bestilling />
-        <Detaljer />
       </main>
     </>
   );
