@@ -9,9 +9,7 @@ const Fingernijorda = () => {
 
                 <div class="lgl:ml-[8.3rem] jlg:ml-[12.8rem] pt-8 md:pt-0 order-2 md:order-1 md:bg-brun xl:bg-transparent ">
                     <div className='text-hvit'>
-                        <p className='text-[1.063rem] xxl:text-2xl  md:pt-0 lg:mt-0 text-gul'>
-                            Boklansering 18. April 2023
-                        </p>
+
                         <h1 className='text-[1.875rem] xxl:text-4xl xxl:pt-4 font-youngs'>Finger'n i jorda</h1>
                         <div className='md:max-w-[27.5rem] xl:max-w-[27.5rem] xxl:max-w-xl leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl '>
                             <p className=' mt-[25px] md:mt-[30px]'>
