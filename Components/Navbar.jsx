@@ -17,21 +17,21 @@ const Navbar = () => {
 
     useLayoutEffect(() => {
         if (isLgScreen) {
-          setLogoSrc('/jnwl2.webp');
+            setLogoSrc('/jnwl2.webp');
         } else {
-          setLogoSrc('/jnwlb2.webp');
+            setLogoSrc('/jnwlb2.webp');
         }
-      }, [isLgScreen]);
+    }, [isLgScreen]);
 
-      useLayoutEffect(() => {
+    useLayoutEffect(() => {
         if (!isJLgScreen) {
-          setbgColorClass('bg-brun');
+            setbgColorClass('bg-brun');
         } else {
-          setbgColorClass('bg-transparent');
+            setbgColorClass('bg-transparent');
         }
-      }, [isJLgScreen]);
+    }, [isJLgScreen]);
 
-      
+
 
     const handleNav = () => {
         setNav(!nav);
@@ -42,7 +42,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`min-h-auto fixed w-full ${bgColorClass}`}>
+        <div className={`min-h-auto fixed w-full ${bgColorClass} z-50`}>
 
             <div className=' mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] w-[1.8rem] md:w-[7rem] pt-[18px] md:pt-[14px] lg:pt-[66px] pb-4'>
                 <div className=''>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <div className={nav ? 'lg:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ' : 'lg:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun'}>
                     <div className='bg-ogbrun rounded-[15px] w-[96%] h-[98%] flex justify-center items-center'>
                         <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
-                        <li className={`${isActive('/')}`}>
+                            <li className={`${isActive('/')}`}>
                                 <Link href="/">
                                     Finger'n i jorda
                                 </Link>

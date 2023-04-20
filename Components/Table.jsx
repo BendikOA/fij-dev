@@ -20,7 +20,7 @@ function Table() {
         <div className="flex flex-col pt-[14px]  mt-10">
           <div className="w-28 text-[17px] font-normal">Levering</div>
 
-          <div className="w-102 pt-2 font-semibold text-[20px] font-youngs xxl:text-2xl">Sendes i posten neste virkedag.</div>
+          <div className="w-102 pt-2 font-semibold md:text-[17px] lg:text-[20px] lg:max-w-[70%] lgl:max-w-[100%] font-youngs xxl:text-2xl ">Sendes i posten neste virkedag.</div>
         </div>
 
       </div>

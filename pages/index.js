@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/Components/Navbar'
 import Event from '@/Components/Event'
 
-import Fingernijorda from '@/Components/Fingernijorda'
+import Fingernijorda from '@/Components/Fingernijordaalt'
 
 export default function Home() {
   return (

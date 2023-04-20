@@ -49,9 +49,9 @@ const Bestilling = () => {
 
 
             </div>
-            <div className="lgl:ml-[8.3rem]  jlg:ml-[12.8rem] md:h-auto md:flex-row justify-start pb-[5.93rem]">
+            <div className="lgl:ml-[8.3rem]  jlg:ml-[12.8rem] md:h-auto md:flex-row  pb-[5.93rem] lgl:mr-[8.3rem]  jlg:mr-[12.8rem] xxl:mr-[20rem]">
 
-                <img className=' mx-auto md:mx-0 md:w-[51.313rem]  lgl:w-[51.313rem] lg:w-[100%] xxl:w-[68%] md:pt-[8rem]' src={BokSrc} alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme." width="100%" height="100%"
+                <img className=' mx-auto md:mx-0  md:pt-[8rem]' src={BokSrc} alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme." width="100%" height="100%"
                 />
             </div>
         </section>
