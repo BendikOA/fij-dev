@@ -6,6 +6,9 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 
 import Detaljer from './Detaljer';
+import Forknapp from './Postalt';
+import ForknappY from './Postyellow';
+
 
 const Bestilling = () => {
 
@@ -38,13 +41,23 @@ const Bestilling = () => {
                                 Boka vil også bli solgt på Tronsmo bokhandel i Oslo og på Vitenparken på Ås.
                             </p>
 
+                            <div className='sm:flex sm:flex-col items-center  sm:mt-[70px]'>
+                                <p className=' mt-[44px]'>
+                                    Boka er også tilgjengelig som ebok.
+                                </p>
+                                <div className='mt-[20px] sm:hidden'>
+                                    <Forknapp />
+                                </div>
+                                <div className='mt-[20px] hidden sm:block'>
+                                    <ForknappY />
+                                </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="md:w-1/2 mt-10 md:mt-0  md:pl-12  lg:pt-0 xl:pl-0 flex flex-start md:justify-start">
                     <Detaljer />
-
                 </div>
 
 

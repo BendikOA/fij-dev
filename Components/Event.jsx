@@ -1,13 +1,24 @@
 import React from 'react'
 import Link from 'next/link'
+import Postartikkel from './Postartikkel'
 
 const Event = () => {
     return (
         <div className='w-full'>
-            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pb-12">
-                <div className=' md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] pt-32 md:pt-0  md:bg-brun xl:bg-transparent'>
+            <div className="flex flex-col md:h-auto md:flex-row justify-center  mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pb-12 font-sans">
+                <div className=' md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[8.3rem] pt-32 md:pt-0  md:bg-brun xl:bg-transparent'>
                     <div className='text-hvit'>
+                        <div className='flex flex-col text-center md:text-left'>
+                            <div class=" text-stone-300 text-[13px] font-normal">Anmeldelse i NBS nr 5.</div>
+                            <div class="md:w-[199.54px] text-amber-300 text-2xl font-semibold font-youngs text-gul mt-[9px] text-center md:text-left">«Interessant og spennende»</div>
+                            <div class="text-stone-300 text-[17px] font-semibold font-['Work Sans'] mt-[20px]">Ole-Jacob Christensen</div>
+                        </div>
+                        <div className='flex flex-col mt-[83px] text-center md:text-left'>
+                            <div class="md:w-[199.54px] text-amber-300 text-[32px] font-semibold font-youngs text-gul mt-[9px]">«Glitrende!»</div>
+                            <div class="text-stone-300 text-[17px] font-semibold mt-[29px]">Lars Bakken</div>
+                            <div class="md:w-[237px] text-stone-300 text-[17px] font-normal mt-[9px] mb-12 md:mb-0">Professor i jordmikrobiologi, NMBU</div>
 
+                        </div>
                         <h1 className='text-[1.6rem] xxl:text-4xl xxl:pt-4 md:mt-32 font-youngs'>Innholdsfortegnelse</h1>
                         <div className='md:max-w-[27.5rem] xl:max-w-[27.5rem] xxl:max-w-xl leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl '>
                             <ol className='pt-4'>
