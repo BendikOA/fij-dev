@@ -3,16 +3,12 @@ import React from 'react'
 import { useRef } from 'react';
 
 const Fingernijorda = () => {
-
-    const leftSection = useRef(null);
-
-
     return (
         <section className='w-full relative'>
             <div className="grid grid-cols-1 md:grid-cols-2 justify-center mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] md:pt-[11.3rem] lg:pt-[16rem] jlg:pt-[18.75rem] pb-12">
 
 
-                <div ref={leftSection} class="lgl:ml-[8.3rem] jlg:ml-[8.3rem] pt-8 md:pt-0 order-2 md:order-1 md:bg-brun xl:bg-transparent ">
+                <div class="lgl:ml-[8.3rem] jlg:ml-[8.3rem] pt-8 md:pt-0 order-2 md:order-1 md:bg-brun xl:bg-transparent ">
                     <div className='text-hvit'>
 
                         <h1 className='text-[1.875rem] xxl:text-4xl xxl:pt-4 font-youngs'>Finger'n i jorda</h1>

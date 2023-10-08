@@ -20,9 +20,9 @@ const Jordnrt = () => {
                                 Har du spørsmål eller samarbeids- forslag send oss en mail!
                             </p>
                             <div className='hidden md:block mb-[5.6rem]'>
-                            <Postbutton className="hidden md:block "/>
-       
-                           </div>
+                                <Postbutton className="hidden md:block " />
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,12 +56,12 @@ const Jordnrt = () => {
                             <h2 className='mt-6 text-[24px] font-youngs'>
                                 895 244 252
                             </h2>
-                            <div class='w-full flex flex-col justify-center items-center text-center md:hidden pt-24 max-w-xs mx-auto'>
+                            <div className='w-full flex flex-col justify-center items-center text-center md:hidden pt-24 max-w-xs mx-auto'>
                                 <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl justify-center'>
                                     Har du spørsmål eller samarbeids- forslag send oss en mail!
                                 </p>
 
-                                <Postbutton className="hidden md:block "/>
+                                <Postbutton className="hidden md:block " />
 
 
                             </div>

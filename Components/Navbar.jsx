@@ -4,6 +4,7 @@ import { useState, useLayoutEffect, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useMediaQuery } from '@react-hook/media-query';
 import { useRouter } from 'next/router';
+import Postbutton from './Postbutton';
 
 
 
@@ -55,11 +56,6 @@ const Navbar = () => {
                 </div>
                 <div className='hidden lg:flex text-right'>
                     <ul className='fixed  md:right-[60px] top-[65px] jlg:right-[150px] leading-[24px] text-[20px] xxl:text-[30px] xxl:leading-[34px] text-hvit font-youngs'>
-                        <li className={`mt-[19px] hover:text-gul ${isActive('/')}`}>
-                            <Link href="/">
-                                Finger'n i jorda
-                            </Link>
-                        </li>
                         <li className={`mt-[19px] hover:text-gul ${isActive('/bestilling')}`}>
                             <Link href="bestilling">
                                 Bestilling
@@ -73,6 +69,11 @@ const Navbar = () => {
                         <li className={`mt-[19px] hover:text-gul ${isActive('/forlaget')}`}>
                             <Link href="forlaget">
                                 Om forlaget
+                            </Link>
+                        </li>
+                        <li className={`mt-[19px] hover:text-gul ${isActive('/foredrag')}`}>
+                            <Link href="foredrag">
+                                Foredrag om jord
                             </Link>
                         </li>
                     </ul>
@@ -90,30 +91,37 @@ const Navbar = () => {
                 {/* mobile menu */}
 
                 <div className={nav ? 'lg:hidden fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun ' : 'lg:hidden fixed top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-brun'}>
-                    <div className='bg-ogbrun rounded-[15px] w-[96%] h-[98%] flex justify-center items-center'>
-                        <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center '>
-                            <li className={`${isActive('/')}`}>
-                                <Link href="/">
-                                    Finger'n i jorda
-                                </Link>
-                            </li>
-                            <li className={`mt-[49px] ${isActive('/bestilling')}`}>
-                                <Link href="bestilling">
-                                    Bestilling
-                                </Link>
-                            </li>
-                            <li className={`mt-[49px] ${isActive('/forfatterne')}`}>
-                                <Link href="forfatterne">
-                                    Forfatterne
-                                </Link>
-                            </li>
-                            <li className={`mt-[49px] ${isActive('/forlaget')}`}>
-                                <Link href="forlaget">
-                                    Om forlaget
-                                </Link>
-                            </li>
-                        </ul>
-                    </div></div>
+                    <div className='bg-ogbrun rounded-[15px] w-[96%] h-[98%] flex flex-col justify-center items-center'>
+                        <div className="h-full flex flex-col justify-center">{/* Spacer div */}
+
+                            <ul className=' leading-[24px] text-[20px] text-hvit font-youngs text-center mt-auto'>
+                                <li className={`mt-[49px] ${isActive('/bestilling')}`}>
+                                    <Link href="bestilling">
+                                        Bestilling
+                                    </Link>
+                                </li>
+                                <li className={`mt-[49px] ${isActive('/forfatterne')}`}>
+                                    <Link href="forfatterne">
+                                        Forfatterne
+                                    </Link>
+                                </li>
+                                <li className={`mt-[49px] ${isActive('/forlaget')}`}>
+                                    <Link href="forlaget">
+                                        Om forlaget
+                                    </Link>
+                                </li>
+                                <li className={`mt-[49px] ${isActive('/foredrag')}`}>
+                                    <Link href="foredrag">
+                                        Foredrag om jord
+                                    </Link>
+                                </li>
+
+                            </ul>
+                            <div className="mt-auto mb-[30px]">
+                                <Postbutton />
+                            </div></div>
+                    </div>
+                </div>
             </div>
         </div>
     )

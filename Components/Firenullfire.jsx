@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { useState, useLayoutEffect, useEffect } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { useMediaQuery } from '@react-hook/media-query';
+
 import { useRouter } from 'next/router';
 
 
@@ -23,7 +21,7 @@ const firenullfire = () => {
         <div className='hidden md:flex justify-center text-hvit'>
 
           <img
-          className='w-[8rem]'
+            className='w-[8rem]'
             src="/erroricon.webp"
             width="100%" height="100%"
             alt="Jordnaert Press" />        </div>
@@ -43,8 +41,8 @@ const firenullfire = () => {
             <img className='justify-center mx-auto'
               src="/erroricon.webp"
               width="50%" height="100%"
-              alt="Jordnaert Press" />       
-               </div>
+              alt="Jordnaert Press" />
+          </div>
           <div className='pb-24 md:pt-20'>
             <div>
               <ul className='text-center md:text-right text-[1.25rem] text-hvit font-youngs mt-8'>
