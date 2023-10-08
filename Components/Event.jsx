@@ -9,9 +9,9 @@ const Event = () => {
                 <div className=' md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[8.3rem] pt-32 md:pt-0  md:bg-brun xl:bg-transparent'>
                     <div className='text-hvit'>
                         <div className='flex flex-col text-center md:text-left'>
-                            <div class=" text-stone-300 text-[13px] font-normal">Anmeldelse i NBS nr 5.</div>
-                            <div class="md:w-[199.54px] text-amber-300 text-2xl font-semibold font-youngs text-gul mt-[9px] text-center md:text-left">«Interessant og spennende»</div>
-                            <div class="text-stone-300 text-[17px] font-semibold font-['Work Sans'] mt-[20px]">Ole-Jacob Christensen</div>
+                            <div class=" text-[13px] font-normal">Anmeldelse i NBS nr 5.</div>
+                            <div class="md:w-[199.54px] text-2xl font-semibold font-youngs text-gul mt-[9px] text-center md:text-left">«Interessant og spennende»</div>
+                            <div class="text-[17px] font-semibold font-['Work Sans'] mt-[20px]">Ole-Jacob Christensen</div>
                         </div>
                         <div className='flex flex-col mt-[83px] text-center md:text-left'>
                             <div class="md:w-[199.54px] text-amber-300 text-[32px] font-semibold font-youngs text-gul mt-[9px]">«Glitrende!»</div>
