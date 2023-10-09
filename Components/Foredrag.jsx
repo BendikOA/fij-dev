@@ -19,13 +19,13 @@ const Foredrag = () => {
                         <li>Jordforbedring og biokull</li>
                         <li>Mikroplast i jord</li>
                     </ul>
-                    <div className="text-stone-300 text-[17px] font-semibold mt-[53px] text-center md:text-left">Forespørsel om pris og booking sendes på mail.</div>
+                    <div className="max-w-[250px] md:max-w-[100%] mx-auto md:mx-0  text-[17px] font-semibold mt-[53px] text-center md:text-left">Forespørsel om pris og booking sendes på mail.</div>
                     <div className="text-center text-stone-950 text-base  font-['YoungSerif'] mx-auto md:mx-0 flex justify-center md:justify-start">
                         <Postbutton emailText="Kontakt oss" />
 
                     </div>
                 </div>
-                <div className="md:w-1/2 order-2 md:order-1 pt-[4.1rem] md:pt-[0] flex flex-wrap pb-8 ml-0 sticky">
+                <div className="md:w-1/2 order-2 md:order-1 pt-[4.1rem] md:pt-[0] flex flex-wrap pb-8 ml-0 ">
                     <div>
                         <img className='mx-auto md:mx-0 w-full object-cover ' src='../earth.webp' alt="" />
                     </div>
