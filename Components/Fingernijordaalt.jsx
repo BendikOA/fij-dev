@@ -32,7 +32,7 @@ const Fingernijorda = () => {
                         <div className='leading-5'>
 
 
-                            <img className=' mx-auto md:mx-0 w-[60%] md:w-[70%] lg:w-[55%] jlg:w-[40%]' src='./boka2.webp' alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme." width="100%" height="100%"
+                            <img className=' mx-auto md:mx-0 w-[60%] md:w-[80%] lg:w-[60%] jlg:w-[60%]' src='./boka2.webp' alt="3D-render av boka Finger'n i jorda. I et skandinavisk skog-landskap, står boka oppstilt på bakken foran en liggende trestamme." width="100%" height="100%"
                             />
 
 
