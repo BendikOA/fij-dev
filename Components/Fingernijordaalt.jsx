@@ -36,7 +36,7 @@ const Fingernijorda = () => {
                             />
 
 
-                            <div className='w-[60%] md:w-[70%] lg:w-[55%] jlg:w-[45%] text-center mx-auto md:mx-0'>
+                            <div className='w-[60%] md:w-[80%] lg:w-[60%] jlg:w-[60%] text-center mx-auto md:mx-0'>
                                 <Link href="bestilling">
                                     <div className='bg-gul hover:bg-brun text-brun hover:text-gul hover:border-gul border rounded-[4px] mt-7 mb-8 md:pb-0 cursor-pointer'
                                         style={{ boxSizing: 'border-box', display: 'inline-block' }}>

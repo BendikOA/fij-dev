@@ -41,7 +41,7 @@ const Bestilling = () => {
                                 Boka vil også bli solgt på Tronsmo bokhandel i Oslo og på Vitenparken på Ås.
                             </p>
 
-                            <div className='sm:flex sm:flex-col items-center  sm:mt-[70px]'>
+                            <div className='sm:flex sm:flex-col items-center md:items-start sm:mt-[70px]'>
                                 <p className=' mt-[44px]'>
                                     Boka er også tilgjengelig som ebok.
                                 </p>
