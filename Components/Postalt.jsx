@@ -29,9 +29,9 @@ const Postbutton = () => {
 
     return (
         <div className=' flex text-center md:mx-0'>
-            <Link href="mailto:post@jordnaert.no">
+            <Link href="https://ebok.no/eboker/natur-og-dyr/fingern-i-jorda-erik-joner-9788269322712/" target='_blank'>
                 <button className=' bg-hvit 	hover:bg-brun text-brun  hover:text-hvit hover:border-hvit border rounded-[4px] mt-4 mb-8 md:pb-0'>
-                    <div className='font-youngs text-[1rem] lg:text-[1.063rem] xxl:text-2xl pt-[6px] pb-[6px] px-[10px]'>post@jordnaert.no
+                    <div className='font-youngs text-[1rem] lg:text-[1.063rem] xxl:text-2xl pt-[6px] pb-[6px] px-[10px]'>ebok.no
 
                     </div>
                 </button></Link>
