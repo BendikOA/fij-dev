@@ -6,7 +6,7 @@ const Foredrag = () => {
         <section className='w-full'>
             <div className="flex flex-col md:flex-row justify-center gap-11 md:pt-[11.3rem] text-hvit lg:pt-[16rem] jlg:pt-[18.75rem] text-font-sans mx-[1.25rem] md:mx-[3.75rem] lg:mx-[9.3rem] pt-[8.1rem] pb-12">
                 <div className="md:w-1/2 lgl:ml-[8.3rem] jlg:ml-[12.8rem] order-2 md:order-1 ">
-                    <div className="text-stone-300 text-[40px] font-semibold font-youngs text-hvit">Jordnært Press</div>
+                    <div className="text-stone-300 text-[40px] font-semibold font-youngs text-hvit">Foredrag om jord</div>
                     <div className="w-[220px] md:w-[335px] text-stone-300 text-[17px] mt-[30px]">Erik Joner tar på seg oppdrag for foredragsholder om jord og tilgrensende temaer.</div>
                     <div className="text-stone-300 text-[17px] font-semibold mt-[44px]">Tidligere foredrag omfatter titler som:</div>
                     <ul class="list-none pl-0 space-y-4 text-[17px] mt-[23px]">

@@ -49,7 +49,7 @@ const Bestilling = () => {
                                     <Forknapp />
                                 </div>
                                 <div className='mt-[20px] hidden sm:block'>
-                                    <ForknappY />
+                                    <Forknapp />
                                 </div>
 
                             </div>
