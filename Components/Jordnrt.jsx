@@ -15,8 +15,7 @@ const Jordnrt = () => {
                             <p className=' mt-[13px]'>
                                 Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen.                            </p>
                             <p className='hidden md:block text-[16px] lg:text-[17px] md:mt-[96px] max-w-[19.4rem] xxl:text-2xl xxl:max-w-[30.4rem] '>
-                                Har du spørsmål eller samarbeids- forslag send oss en mail!
-                            </p>
+                                Har du spørsmål eller forslag, send så oss en mail!                                      </p>
                             <div className='hidden md:block mb-[5.6rem]'>
                                 <Postbutton className="hidden md:block " />
 
@@ -30,8 +29,7 @@ const Jordnrt = () => {
                     <div className=' text-hvit'>
                         <div className='leading-5 '>
                             <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl lg:mt-0 mt-[6.25rem] md:mt-[1rem]'>
-                                Daglig leder
-                            </p>
+                                DAGLIG                            </p>
                             <h2 className='mt-6 text-[24px] font-youngs '>
                                 Erik Joner
                             </h2>
