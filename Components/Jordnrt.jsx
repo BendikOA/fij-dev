@@ -11,11 +11,9 @@ const Jordnrt = () => {
                         <h1 className='text-[1.875rem] xxl:text-4xl font-youngs'>Jordnært Press</h1>
                         <div className='md:max-w-[460px] xxl:max-w-[600px] leading-5 text-[1rem] lg:text-[1.063rem] xxl:text-2xl'>
                             <p className=' mt-[25px] md:mt-[30px]'>
-                                Vi er nybegynnere som forlag, men deler gjerne våre erfaringer og kan bistå med utgivelser som faller innenfor vår profil.
-                            </p>
+                                Vi er nybegynnere som forlag, men deler gjerne våre erfaringer.                            </p>
                             <p className=' mt-[13px]'>
-                                Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen.
-                            </p>
+                                Jordnært Press har avtale med Merkur Grafiske AS. De ombrekker, trykker og binder inn bøker i Norge på miljøsertifisert papir. For omslagsdesign samarbeider vi med Peter Sterten som er utdannet designer. For web-sider samarbeider vi med Bendik Andersen.                            </p>
                             <p className='hidden md:block text-[16px] lg:text-[17px] md:mt-[96px] max-w-[19.4rem] xxl:text-2xl xxl:max-w-[30.4rem] '>
                                 Har du spørsmål eller samarbeids- forslag send oss en mail!
                             </p>
@@ -58,8 +56,7 @@ const Jordnrt = () => {
                             </h2>
                             <div className='w-full flex flex-col justify-center items-center text-center md:hidden pt-24 max-w-xs mx-auto'>
                                 <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl justify-center'>
-                                    Har du spørsmål eller samarbeids- forslag send oss en mail!
-                                </p>
+                                    Har du spørsmål eller forslag, send så oss en mail!                                </p>
 
                                 <Postbutton className="hidden md:block " />
 
