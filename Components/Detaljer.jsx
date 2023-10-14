@@ -13,7 +13,7 @@ const Detaljer = () => {
 
                         <div className="order-2 md:order-1">
                             <p className='text-[1rem] lg:text-[1.063rem] xxl:text-2xl  md:pt-0 lg:mt-0'>
-                                Bestill på mail:
+                                Bestill boka på mail:
                             </p>
                             <Postbutton />
                         </div>
