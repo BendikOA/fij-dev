@@ -23,10 +23,6 @@ const Detaljer = () => {
                     </div>
                 </div>
 
-
-
-
-
             </div>
 
         </div>)
