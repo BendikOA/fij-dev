@@ -6,7 +6,7 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 
 import Detaljer from './Detaljer';
-import Forknapp from './Postalt';
+import Forknapp from './Postaltikon';
 import ForknappY from './Postyellow';
 
 
