@@ -38,8 +38,7 @@ const Bestilling = () => {
                             </p>
 
                             <p className=' mt-[13px]'>
-                                Boka vil også bli solgt på Tronsmo bokhandel i Oslo og på Vitenparken på Ås.
-                            </p>
+                                Boka selges på Tronsmo bokhandel i Oslo, Akademika, Blindern, og tre steder på Ås (Smia, Vitenparken og Norli).                            </p>
 
                             <div className='sm:flex sm:flex-col items-center md:items-start sm:mt-[70px]'>
                                 <p className=' mt-[44px]'>
